@@ -48,7 +48,7 @@ Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistem
     <td width="50%" valign="top">
       <h3 align="center">DevOps & Workflow</h3>
       <p align="center">
-        <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions&theme=dark" alt="Docker, Git, GitHub e GitHub Actions" />
+        <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,githubactions&theme=dark" alt="Docker, Git, GitHub, GitLab e GitHub Actions" />
       </p>
       <p align="center">Ambientes reproduzíveis, versionamento e automação.</p>
     </td>
@@ -62,6 +62,8 @@ Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistem
 | [**NutriAI**](https://github.com/JoaoMatheusVerissimo/NutriAI) | Projeto de inteligência artificial; bom espaço para apresentar problema, arquitetura, funcionalidades e resultado. | TypeScript • IA |
 | [**CaminhosDeMadreC**](https://github.com/JoaoMatheusVerissimo/CaminhosDeMadreC) | Desenvolvimento de um jogo como projeto final, reunindo lógica, experiência visual e trabalho com shaders. | ShaderLab • Game Dev |
 | [**Avaliação Técnica**](https://github.com/JoaoMatheusVerissimo/AvaliacaoTecnicaTeste1) | Exercícios práticos com foco em resolução de problemas, organização de código e fundamentos de programação. | Lógica • Boas práticas |
+
+> Cada repositório em destaque deve ter um README próprio com contexto, funcionalidades, stack, instruções de execução e imagens do resultado.
 
 ## GitHub em números
 
@@ -89,6 +91,8 @@ Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistem
     <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoMatheusVerissimo&layout=compact&hide_border=true&theme=default&locale=pt-br&size_weight=0.5&count_weight=0.5" alt="Linguagens mais utilizadas por João Matheus" />
   </picture>
 </div>
+
+<sub>As linguagens acima são calculadas com base nos repositórios públicos e não representam, isoladamente, nível de experiência.</sub>
 
 ## Vamos conversar
 
