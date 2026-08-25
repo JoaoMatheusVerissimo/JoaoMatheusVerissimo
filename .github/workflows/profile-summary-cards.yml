@@ -1,0 +1,32 @@
+name: Atualizar estatísticas do perfil
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: Gerar cards do GitHub
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Gerar e publicar cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: JoaoMatheusVerissimo
+          BRANCH_NAME: main
+          THEME: github_dark
+          UTC_OFFSET: -3
