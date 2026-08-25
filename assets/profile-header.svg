@@ -44,7 +44,7 @@
 
   <g transform="translate(600 62)" text-anchor="middle">
     <text y="18" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4">FULL-STACK DEVELOPER</text>
-    <text y="83" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-1">João Matheus Verissimo Francisco</text>
+    <text y="83" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">João Matheus Veríssimo Francisco</text>
     <rect x="-196" y="111" width="392" height="3" rx="1.5" fill="url(#accent)" filter="url(#softGlow)"/>
     <text y="157" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0.6">Back-End  •  Front-End  •  Dados  •  DevOps</text>
   </g>
