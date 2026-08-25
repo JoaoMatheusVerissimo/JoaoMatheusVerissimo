@@ -90,8 +90,6 @@ Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistem
   </picture>
 </div>
 
-<sub>As linguagens acima são calculadas com base nos repositórios públicos e não representam, isoladamente, nível de experiência.</sub>
-
 ## Vamos conversar
 
 Estou aberto a conexões, colaboração em projetos e oportunidades de desenvolvimento Full-Stack.
