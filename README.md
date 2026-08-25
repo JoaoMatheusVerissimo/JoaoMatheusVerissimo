@@ -63,36 +63,12 @@ Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistem
 | [**CaminhosDeMadreC**](https://github.com/JoaoMatheusVerissimo/CaminhosDeMadreC) | Desenvolvimento de um jogo como projeto final, reunindo lógica, experiência visual e trabalho com shaders. | ShaderLab • Game Dev |
 | [**Avaliação Técnica**](https://github.com/JoaoMatheusVerissimo/AvaliacaoTecnicaTeste1) | Exercícios práticos com foco em resolução de problemas, organização de código e fundamentos de programação. | Lógica • Boas práticas |
 
-> Cada repositório em destaque deve ter um README próprio com contexto, funcionalidades, stack, instruções de execução e imagens do resultado.
-
 ## GitHub em números
 
 <div align="center">
-  <picture>
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=JoaoMatheusVerissimo&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&locale=pt-br"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=JoaoMatheusVerissimo&show_icons=true&hide_border=true&rank_icon=github&theme=default&locale=pt-br"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=JoaoMatheusVerissimo&show_icons=true&hide_border=true&rank_icon=github&theme=default&locale=pt-br" alt="Estatísticas do GitHub de João Matheus" />
-  </picture>
-  <picture>
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoMatheusVerissimo&layout=compact&hide_border=true&theme=github_dark&locale=pt-br&size_weight=0.5&count_weight=0.5"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoMatheusVerissimo&layout=compact&hide_border=true&theme=default&locale=pt-br&size_weight=0.5&count_weight=0.5"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoMatheusVerissimo&layout=compact&hide_border=true&theme=default&locale=pt-br&size_weight=0.5&count_weight=0.5" alt="Linguagens mais utilizadas por João Matheus" />
-  </picture>
+  <img height="180" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas do GitHub de João Matheus" />
+  <img height="180" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Linguagens mais utilizadas nos commits de João Matheus" />
 </div>
-
-<sub>As linguagens acima são calculadas com base nos repositórios públicos e não representam, isoladamente, nível de experiência.</sub>
 
 ## Vamos conversar
 
