@@ -63,8 +63,6 @@ Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistem
 | [**CaminhosDeMadreC**](https://github.com/JoaoMatheusVerissimo/CaminhosDeMadreC) | Desenvolvimento de um jogo como projeto final, reunindo lógica, experiência visual e trabalho com shaders. | ShaderLab • Game Dev |
 | [**Avaliação Técnica**](https://github.com/JoaoMatheusVerissimo/AvaliacaoTecnicaTeste1) | Exercícios práticos com foco em resolução de problemas, organização de código e fundamentos de programação. | Lógica • Boas práticas |
 
-> Cada repositório em destaque deve ter um README próprio com contexto, funcionalidades, stack, instruções de execução e imagens do resultado.
-
 ## GitHub em números
 
 <div align="center">
