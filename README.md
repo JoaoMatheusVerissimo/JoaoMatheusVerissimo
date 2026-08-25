@@ -16,7 +16,7 @@
 
 Sou desenvolvedor **Full-Stack**, interessado em transformar problemas reais em produtos digitais bem estruturados, intuitivos e fáceis de manter. Trabalho de forma equilibrada entre **Back-End** e **Front-End**, passando por APIs, interfaces, persistência de dados, versionamento e entrega contínua.
 
-Minha stack principal reúne **Java**, **TypeScript** e o ecossistema **React**, complementados por persistência de dados, containerização e CI/CD.
+Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistema **React**, complementados por persistência de dados, containerização e CI/CD.
 
 ## Stack principal
 
