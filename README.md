@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="João Matheus Verissimo — Full-Stack Developer" />
+  <img src="./assets/profile-header.svg" width="100%" alt="João Matheus Veríssimo Francisco — Full-Stack Developer" />
 </div>
 
 <br />
