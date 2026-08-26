@@ -14,9 +14,15 @@
 
 ## Sobre mim
 
-Sou desenvolvedor **Full-Stack**, interessado em transformar problemas reais em produtos digitais bem estruturados, intuitivos e fáceis de manter. Trabalho de forma equilibrada entre **Back-End** e **Front-End**, passando por APIs, interfaces, persistência de dados, versionamento e entrega contínua.
+Sou estudante de **Ciência da Computação na UNISAGRADO**, apaixonado por **tecnologia, inovação e pela criação de soluções que geram impacto real**.
 
-Minha stack principal reúne **Java**, **Python**, **TypeScript** e o ecossistema **React**, complementados por persistência de dados, containerização e CI/CD.
+Ao longo da minha jornada acadêmica, venho me aprofundando em **desenvolvimento de software, algoritmos e inteligência artificial**, sempre aplicando o conhecimento em **projetos práticos e desafiadores**.
+
+Tenho experiência com **JavaScript, Java e C#**, além de atuação com **banco de dados MySQL** e **integrações com APIs**, desenvolvendo soluções **eficientes, escaláveis e bem estruturadas**.
+
+Tenho especial interesse na construção de **sistemas escaláveis**, **organização de código**, **boas práticas de desenvolvimento** e **arquitetura de software**.
+
+Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **novas tecnologias**, **padrões de arquitetura** e **metodologias ágeis**, sempre com foco em **performance, qualidade e evolução contínua**.
 
 ## Stack principal
 
