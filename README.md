@@ -18,7 +18,7 @@ Sou estudante de **Ciência da Computação na UNISAGRADO**, apaixonado por **te
 
 Ao longo da minha jornada acadêmica, venho me aprofundando em **desenvolvimento de software, algoritmos e inteligência artificial**, sempre aplicando o conhecimento em **projetos práticos e desafiadores**.
 
-Tenho experiência com **JavaScript, Java e C#**, além de atuação com **banco de dados MySQL** e **integrações com APIs**, desenvolvendo soluções **eficientes, escaláveis e bem estruturadas**.
+Tenho experiência com **JavaScript, Java, Python e C#**, além de atuação com **banco de dados MySQL** e **integrações com APIs**, desenvolvendo soluções **eficientes, escaláveis e bem estruturadas**.
 
 Tenho especial interesse na construção de **sistemas escaláveis**, **organização de código**, **boas práticas de desenvolvimento** e **arquitetura de software**.
 
