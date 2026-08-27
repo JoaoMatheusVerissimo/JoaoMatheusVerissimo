@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Baixar repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Gerar e publicar cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
