@@ -66,8 +66,8 @@ Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **no
 | Projeto | O que demonstra | Tecnologias |
 |:--|:--|:--|
 | [**NutriAI**](https://github.com/JoaoMatheusVerissimo/NutriAI) | Projeto de inteligência artificial; bom espaço para apresentar problema, arquitetura, funcionalidades e resultado. | TypeScript • IA |
+| [**DocuAI**](https://github.com/JoaoMatheusVerissimo/docuai) | Arquitetura de um SaaS multi-tenant para análise inteligente de documentos, com autenticação JWT, workspaces, RBAC e base para processamento assíncrono e RAG com citações. | React • TypeScript • Spring Boot • FastAPI • MySQL |
 | [**CaminhosDeMadreC**](https://github.com/JoaoMatheusVerissimo/CaminhosDeMadreC) | Desenvolvimento de um jogo como projeto final, reunindo lógica, experiência visual e trabalho com shaders. | ShaderLab • Game Dev |
-| [**Avaliação Técnica**](https://github.com/JoaoMatheusVerissimo/AvaliacaoTecnicaTeste1) | Exercícios práticos com foco em resolução de problemas, organização de código e fundamentos de programação. | Lógica • Boas práticas |
 
 ## GitHub em números
 
