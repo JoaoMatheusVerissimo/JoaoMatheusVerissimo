@@ -73,7 +73,7 @@ Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **no
 
 <div align="center">
   <img height="180" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas do GitHub de João Matheus" />
-  <img height="180" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Linguagens mais utilizadas nos commits de João Matheus" />
+  <img height="180" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg?v=2" alt="Linguagens mais utilizadas nos commits de João Matheus" />
 </div>
 
 ## Vamos conversar
