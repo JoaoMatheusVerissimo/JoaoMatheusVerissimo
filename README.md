@@ -84,6 +84,10 @@ Estou aberto a conexões, colaboração em projetos e oportunidades de desenvolv
   <a href="https://github.com/JoaoMatheusVerissimo">
     <img src="https://img.shields.io/badge/GitHub-Perfil-181717?style=for-the-badge&logo=github&logoColor=white" alt="Perfil no GitHub" />
   </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/joao-m-verissimo-francisco/">
+    <img src="https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Perfil no LinkedIn" />
+  </a>
 </div>
 
 <br />
