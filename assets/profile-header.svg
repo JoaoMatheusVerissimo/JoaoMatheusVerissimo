@@ -1,56 +1,54 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">João Matheus Veríssimo Francisco — Full-Stack Developer</title>
-  <desc id="desc">Cabeçalho tecnológico minimalista em tons escuros, azul e violeta.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080C18"/>
-      <stop offset="0.52" stop-color="#0C1224"/>
-      <stop offset="1" stop-color="#10102A"/>
+    <!-- Degradê do Fundo: Preto para Vermelho Escuro -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="60%" stop-color="#110000" />
+      <stop offset="100%" stop-color="#590000" />
     </linearGradient>
-    <linearGradient id="accent" x1="260" y1="70" x2="940" y2="238" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="0.5" stop-color="#818CF8"/>
-      <stop offset="1" stop-color="#A78BFA"/>
+
+    <!-- Degradê da Linha Central -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3333" />
+      <stop offset="100%" stop-color="#990000" />
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(180 0) rotate(55) scale(390 480)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0284C7" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#0284C7" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1080 290) rotate(-125) scale(420 500)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.055"/>
-    </pattern>
-    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#glowA)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#glowB)"/>
-  <rect x="1" y="1" width="1198" height="298" rx="23" stroke="#94A3B8" stroke-opacity="0.18"/>
-  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <!-- Fundo -->
+  <rect width="800" height="200" rx="12" fill="url(#bgGrad)" />
 
-  <g opacity="0.7">
-    <circle cx="80" cy="64" r="5" fill="#38BDF8"/>
-    <path d="M80 69V111C80 122 89 131 100 131H138" stroke="#38BDF8" stroke-opacity="0.45"/>
-    <circle cx="1120" cy="236" r="5" fill="#A78BFA"/>
-    <path d="M1120 231V189C1120 178 1111 169 1100 169H1062" stroke="#A78BFA" stroke-opacity="0.45"/>
-  </g>
+  <!-- Padrão de Grade (Subtil, para manter a estética tech da imagem original) -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  </pattern>
+  <rect width="800" height="200" rx="12" fill="url(#grid)" />
 
-  <g transform="translate(600 62)" text-anchor="middle">
-    <text y="18" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4">FULL-STACK DEVELOPER</text>
-    <text y="83" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">João Matheus Veríssimo Francisco</text>
-    <rect x="-196" y="111" width="392" height="3" rx="1.5" fill="url(#accent)" filter="url(#softGlow)"/>
-    <text y="157" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0.6">Back-End  •  Front-End  •  Dados  •  DevOps</text>
-  </g>
+  <!-- Decoração Superior Esquerda -->
+  <circle cx="50" cy="40" r="4" fill="#ff3333" />
+  <path d="M 50 44 L 50 80 A 10 10 0 0 0 60 90 L 90 90" fill="none" stroke="#ff3333" stroke-width="1.5" stroke-opacity="0.7"/>
 
-  <g font-family="Consolas,Monaco,monospace" font-size="18" font-weight="700">
-    <text x="52" y="268" fill="#38BDF8" opacity="0.65">{</text>
-    <text x="1137" y="52" fill="#A78BFA" opacity="0.65">/&gt;</text>
+  <!-- Decoração Inferior Direita -->
+  <circle cx="750" cy="160" r="4" fill="#ff3333" />
+  <path d="M 750 156 L 750 120 A 10 10 0 0 0 740 110 L 710 110" fill="none" stroke="#ff3333" stroke-width="1.5" stroke-opacity="0.7"/>
+
+  <!-- Texto Decorativo Superior Direito -->
+  <text x="760" y="35" fill="#ff3333" font-family="monospace" font-size="16" font-weight="bold" opacity="0.8">/&gt;</text>
+
+  <!-- Texto Decorativo Inferior Esquerdo -->
+  <text x="35" y="170" fill="#ff3333" font-family="monospace" font-size="16" font-weight="bold" opacity="0.8">{</text>
+
+  <!-- Grupo de Conteúdo Central -->
+  <g text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">
+    <!-- Subtítulo -->
+    <text x="400" y="55" fill="#a3a3a3" font-size="12" font-weight="600" letter-spacing="3">FULL-STACK DEVELOPER</text>
+
+    <!-- Nome -->
+    <text x="400" y="100" fill="#ffffff" font-size="32" font-weight="bold" letter-spacing="-0.5">João Matheus Veríssimo Francisco</text>
+
+    <!-- Linha Separadora -->
+    <rect x="270" y="120" width="260" height="3" rx="1.5" fill="url(#lineGrad)" />
+
+    <!-- Habilidades -->
+    <text x="400" y="150" fill="#cccccc" font-size="14" font-weight="400">Back-End • Front-End • Dados • DevOps</text>
   </g>
 </svg>
