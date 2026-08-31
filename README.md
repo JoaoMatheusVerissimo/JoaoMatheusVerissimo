@@ -27,61 +27,38 @@ Sou estudante de **Ciência da Computação na UNISAGRADO** e desenvolvedor **Fu
 ## Stack principal
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">Back-End</h3>
-      <p align="center">
-        <img
-          src="https://skillicons.dev/icons?i=java,python&theme=dark"
-          alt="Java e Python"
-        />
-      </p>
-      <p align="center">
-        APIs, regras de negócio, integrações e serviços.
-      </p>
-    </td>
-
-    <td width="50%" valign="top">
-      <h3 align="center">Front-End</h3>
-      <p align="center">
-        <img
-          src="https://skillicons.dev/icons?i=ts,js,react,tailwind&theme=dark"
-          alt="TypeScript, JavaScript, React e Tailwind CSS"
-        />
-      </p>
-      <p align="center">
-        Interfaces responsivas, componentização e experiência do usuário.
-      </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">Dados & Serviços</h3>
-      <p align="center">
-        <img
-          src="https://skillicons.dev/icons?i=mysql,firebase&theme=dark"
-          alt="MySQL e Firebase"
-        />
-      </p>
-      <p align="center">
-        Modelagem, persistência e serviços em nuvem.
-      </p>
-    </td>
-
-    <td width="50%" valign="top">
-      <h3 align="center">DevOps & Workflow</h3>
-      <p align="center">
-        <img
-          src="https://skillicons.dev/icons?i=docker,git,github,gitlab,githubactions&theme=dark"
-          alt="Docker, Git, GitHub, GitLab e GitHub Actions"
-        />
-      </p>
-      <p align="center">
-        Ambientes reproduzíveis, versionamento e automação.
-      </p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">Back-End</h3>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,python&amp;theme=dark" alt="Java e Python" />
+</p>
+<p align="center">APIs, regras de negócio, integrações e serviços.</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">Front-End</h3>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=ts,js,react,tailwind&amp;theme=dark" alt="TypeScript, JavaScript, React e Tailwind CSS" />
+</p>
+<p align="center">Interfaces responsivas, componentização e experiência do usuário.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">Dados &amp; Serviços</h3>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mysql,firebase&amp;theme=dark" alt="MySQL e Firebase" />
+</p>
+<p align="center">Modelagem, persistência e serviços em nuvem.</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">DevOps &amp; Workflow</h3>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,githubactions&amp;theme=dark" alt="Docker, Git, GitHub, GitLab e GitHub Actions" />
+</p>
+<p align="center">Ambientes reproduzíveis, versionamento e automação.</p>
+</td>
+</tr>
 </table>
 
 ## Projetos em destaque
