@@ -14,7 +14,7 @@
 
 ## Sobre mim
 
-Sou estudante de **Ciência da Computação na UNISAGRADO**, apaixonado por **tecnologia, inovação e pela criação de soluções que geram impacto real**.
+Sou estudante de **Ciência da Computação na UNISAGRADO** estou no **8° Semestre**, apaixonado por **tecnologia, inovação e pela criação de soluções que geram impacto real**.
 
 Ao longo da minha jornada acadêmica, venho me aprofundando em **desenvolvimento de software, algoritmos e inteligência artificial**, sempre aplicando o conhecimento em **projetos práticos e desafiadores**.
 
