@@ -58,6 +58,10 @@ if (result.errors) {
   throw new Error(JSON.stringify(result.errors, null, 2));
 }
 
+if (!result.data?.user) {
+  throw new Error(`O usuário "${username}" não foi encontrado.`);
+}
+
 const calendar =
   result.data.user.contributionsCollection.contributionCalendar;
 
@@ -65,7 +69,7 @@ const weeks = calendar.weeks;
 const totalContributions = calendar.totalContributions;
 
 const width = 800;
-const height = 170;
+const height = 160;
 const cellSize = 10;
 const gap = 4;
 const step = cellSize + gap;
@@ -102,12 +106,12 @@ function isBlocked(x, y) {
 
   const day = cells.get(`${x},${y}`);
 
-  // Datas que não fazem parte do calendário também são evitadas.
+  // Datas fora do período do calendário também são evitadas.
   if (!day) {
     return true;
   }
 
-  // Células com contribuições são obstáculos.
+  // Células com contribuições são tratadas como obstáculos.
   return day.contributionCount > 0;
 }
 
@@ -148,30 +152,52 @@ function findRoute() {
 
   const open = [start];
   const cameFrom = new Map();
-  const gScore = new Map([[nodeKey(start.x, start.y), 0]]);
+
+  const gScore = new Map([
+    [nodeKey(start.x, start.y), 0]
+  ]);
+
   const fScore = new Map([
     [nodeKey(start.x, start.y), heuristic(start, goal)]
   ]);
 
   while (open.length > 0) {
     open.sort((a, b) => {
-      return (
-        (fScore.get(nodeKey(a.x, a.y)) ?? Infinity) -
-        (fScore.get(nodeKey(b.x, b.y)) ?? Infinity)
-      );
+      const scoreA =
+        fScore.get(nodeKey(a.x, a.y)) ?? Infinity;
+
+      const scoreB =
+        fScore.get(nodeKey(b.x, b.y)) ?? Infinity;
+
+      return scoreA - scoreB;
     });
 
     const current = open.shift();
 
-    if (current.x === goal.x && current.y === goal.y) {
+    if (
+      current.x === goal.x &&
+      current.y === goal.y
+    ) {
       return reconstructPath(cameFrom, current);
     }
 
     const neighbors = [
-      { x: current.x + 1, y: current.y },
-      { x: current.x - 1, y: current.y },
-      { x: current.x, y: current.y + 1 },
-      { x: current.x, y: current.y - 1 }
+      {
+        x: current.x + 1,
+        y: current.y
+      },
+      {
+        x: current.x - 1,
+        y: current.y
+      },
+      {
+        x: current.x,
+        y: current.y + 1
+      },
+      {
+        x: current.x,
+        y: current.y - 1
+      }
     ];
 
     for (const neighbor of neighbors) {
@@ -188,59 +214,80 @@ function findRoute() {
         continue;
       }
 
-      const currentKey = nodeKey(current.x, current.y);
-      const neighborKey = nodeKey(neighbor.x, neighbor.y);
+      const currentKey = nodeKey(
+        current.x,
+        current.y
+      );
+
+      const neighborKey = nodeKey(
+        neighbor.x,
+        neighbor.y
+      );
 
       let movementCost = 1;
 
-      // Dá preferência a continuar avançando horizontalmente.
+      // Dá preferência ao movimento da esquerda para a direita.
       if (neighbor.x < current.x) {
         movementCost += 3;
       }
 
-      // Evita sair do calendário quando não for necessário.
+      // Evita sair da área do calendário sem necessidade.
       if (neighbor.y < 0 || neighbor.y > 6) {
         movementCost += 2;
       }
 
       const tentativeScore =
-        (gScore.get(currentKey) ?? Infinity) + movementCost;
+        (gScore.get(currentKey) ?? Infinity) +
+        movementCost;
 
-      if (tentativeScore < (gScore.get(neighborKey) ?? Infinity)) {
+      if (
+        tentativeScore <
+        (gScore.get(neighborKey) ?? Infinity)
+      ) {
         cameFrom.set(neighborKey, current);
         gScore.set(neighborKey, tentativeScore);
+
         fScore.set(
           neighborKey,
-          tentativeScore + heuristic(neighbor, goal)
+          tentativeScore +
+            heuristic(neighbor, goal)
         );
 
-        if (
-          !open.some(
-            (item) =>
-              item.x === neighbor.x &&
-              item.y === neighbor.y
-          )
-        ) {
+        const alreadyOpen = open.some(
+          (item) =>
+            item.x === neighbor.x &&
+            item.y === neighbor.y
+        );
+
+        if (!alreadyOpen) {
           open.push(neighbor);
         }
       }
     }
   }
 
-  throw new Error("Não foi possível calcular uma rota.");
+  throw new Error(
+    "Não foi possível calcular uma rota para a animação."
+  );
 }
 
 function pointForNode(node) {
   return {
-    x: gridLeft + node.x * step + cellSize / 2,
-    y: gridTop + node.y * step + cellSize / 2
+    x:
+      gridLeft +
+      node.x * step +
+      cellSize / 2,
+
+    y:
+      gridTop +
+      node.y * step +
+      cellSize / 2
   };
 }
 
 function createPathData(route) {
-  const points = route.map(pointForNode);
-
-  return points
+  return route
+    .map(pointForNode)
     .map((point, index) => {
       const command = index === 0 ? "M" : "L";
       return `${command} ${point.x} ${point.y}`;
@@ -256,8 +303,17 @@ const squares = [];
 for (let x = 0; x < weeks.length; x += 1) {
   for (const day of weeks[x].contributionDays) {
     const squareX = gridLeft + x * step;
-    const squareY = gridTop + day.weekday * step;
-    const fill = levelColors[day.contributionLevel];
+    const squareY =
+      gridTop + day.weekday * step;
+
+    const fill =
+      levelColors[day.contributionLevel] ??
+      levelColors.NONE;
+
+    const contributionLabel =
+      day.contributionCount === 1
+        ? "1 contribuição"
+        : `${day.contributionCount} contribuições`;
 
     squares.push(`
       <rect
@@ -268,7 +324,7 @@ for (let x = 0; x < weeks.length; x += 1) {
         rx="2"
         fill="${fill}"
       >
-        <title>${day.date}: ${day.contributionCount} contribuições</title>
+        <title>${day.date}: ${contributionLabel}</title>
       </rect>
     `);
   }
@@ -283,7 +339,9 @@ const svg = `
   role="img"
   aria-labelledby="title description"
 >
-  <title id="title">Atividade de contribuições de ${username}</title>
+  <title id="title">
+    Atividade de contribuições de ${username}
+  </title>
 
   <desc id="description">
     Animação que percorre o calendário desviando das células com contribuições.
@@ -297,7 +355,10 @@ const svg = `
       width="300%"
       height="300%"
     >
-      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feGaussianBlur
+        stdDeviation="3"
+        result="blur"
+      />
 
       <feMerge>
         <feMergeNode in="blur" />
@@ -379,15 +440,6 @@ const svg = `
       repeatCount="indefinite"
     />
   </path>
-
-  <text
-    x="${width / 2}"
-    y="${height - 16}"
-    text-anchor="middle"
-    fill="#8b949e"
-    font-family="system-ui, -apple-system, sans-serif"
-    font-size="11"
-
 </svg>
 `.trim();
 
