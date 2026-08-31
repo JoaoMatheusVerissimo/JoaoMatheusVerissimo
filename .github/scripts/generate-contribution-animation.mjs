@@ -387,9 +387,7 @@ const svg = `
     fill="#8b949e"
     font-family="system-ui, -apple-system, sans-serif"
     font-size="11"
-  >
-    A animação percorre somente os espaços sem contribuições
-  </text>
+
 </svg>
 `.trim();
 
