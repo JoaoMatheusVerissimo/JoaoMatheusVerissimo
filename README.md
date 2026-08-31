@@ -1,9 +1,5 @@
 <div align="center">
-  <img
-    src="./assets/profile-header.svg"
-    width="100%"
-    alt="João Matheus Veríssimo Francisco — Full-Stack Developer"
-  />
+  <img src="./assets/profile-header.svg" width="100%" alt="João Matheus Veríssimo Francisco — Full-Stack Developer" />
 </div>
 
 <br />
@@ -18,11 +14,15 @@
 
 ## Sobre mim
 
-Sou estudante de **Ciência da Computação na UNISAGRADO** e desenvolvedor **Full-Stack**, com experiência na construção de APIs, interfaces web, integrações e soluções orientadas a dados.
+Sou estudante de **Ciência da Computação na UNISAGRADO** estou no **8° Semestre**, apaixonado por **tecnologia, inovação e pela criação de soluções que geram impacto real**.
 
-- Desenvolvimento com **Java, Python, TypeScript, JavaScript e C#**
-- Interesse em **arquitetura de software, código limpo e sistemas escaláveis**
-- Foco em transformar problemas reais em produtos funcionais e bem estruturados
+Ao longo da minha jornada acadêmica, venho me aprofundando em **desenvolvimento de software, algoritmos e inteligência artificial**, sempre aplicando o conhecimento em **projetos práticos e desafiadores**.
+
+Tenho experiência com **JavaScript, Java, Python e C#**, além de atuação com **banco de dados MySQL** e **integrações com APIs**, desenvolvendo soluções **eficientes, escaláveis e bem estruturadas**.
+
+Tenho especial interesse na construção de **sistemas escaláveis**, **organização de código**, **boas práticas de desenvolvimento** e **arquitetura de software**.
+
+Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **novas tecnologias**, **padrões de arquitetura** e **metodologias ágeis**, sempre com foco em **performance, qualidade e evolução contínua**.
 
 ## Stack principal
 
@@ -72,16 +72,8 @@ Sou estudante de **Ciência da Computação na UNISAGRADO** e desenvolvedor **Fu
 ## GitHub em números
 
 <div align="center">
-  <img
-    height="180"
-    src="./profile-summary-card-output/github_dark/3-stats.svg"
-    alt="Estatísticas do GitHub de João Matheus"
-  />
-  <img
-    height="180"
-    src="./profile-summary-card-output/github_dark/2-most-commit-language.svg?v=2"
-    alt="Linguagens mais utilizadas nos commits de João Matheus"
-  />
+  <img height="180" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas do GitHub de João Matheus" />
+  <img height="180" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg?v=2" alt="Linguagens mais utilizadas nos commits de João Matheus" />
 </div>
 
 ## Atividade de contribuições
@@ -90,7 +82,7 @@ Sou estudante de **Ciência da Computação na UNISAGRADO** e desenvolvedor **Fu
   <img
     src="https://raw.githubusercontent.com/JoaoMatheusVerissimo/JoaoMatheusVerissimo/output/github-contribution-grid-snake.svg"
     width="100%"
-    alt="Animação do histórico de contribuições de João Matheus"
+    alt="Animação desviando das contribuições de João Matheus"
   />
 </div>
 
@@ -105,7 +97,5 @@ Estou aberto a conexões, colaboração em projetos e oportunidades de desenvolv
 <br />
 
 <div align="center">
-  <sub>
-    Projetando interfaces claras, construindo serviços sólidos e conectando as duas pontas.
-  </sub>
+  <sub>Projetando interfaces claras, construindo serviços sólidos e conectando as duas pontas.</sub>
 </div>
