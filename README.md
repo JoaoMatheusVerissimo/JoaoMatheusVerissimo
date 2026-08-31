@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="João Matheus Veríssimo Francisco — Full-Stack Developer" />
+  <img
+    src="./assets/profile-header.svg"
+    width="100%"
+    alt="João Matheus Veríssimo Francisco — Full-Stack Developer"
+  />
 </div>
 
 <br />
@@ -14,15 +18,11 @@
 
 ## Sobre mim
 
-Sou estudante de **Ciência da Computação na UNISAGRADO** estou no **8° Semestre**, apaixonado por **tecnologia, inovação e pela criação de soluções que geram impacto real**.
+Sou estudante de **Ciência da Computação na UNISAGRADO** e desenvolvedor **Full-Stack**, com experiência na construção de APIs, interfaces web, integrações e soluções orientadas a dados.
 
-Ao longo da minha jornada acadêmica, venho me aprofundando em **desenvolvimento de software, algoritmos e inteligência artificial**, sempre aplicando o conhecimento em **projetos práticos e desafiadores**.
-
-Tenho experiência com **JavaScript, Java, Python e C#**, além de atuação com **banco de dados MySQL** e **integrações com APIs**, desenvolvendo soluções **eficientes, escaláveis e bem estruturadas**.
-
-Tenho especial interesse na construção de **sistemas escaláveis**, **organização de código**, **boas práticas de desenvolvimento** e **arquitetura de software**.
-
-Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **novas tecnologias**, **padrões de arquitetura** e **metodologias ágeis**, sempre com foco em **performance, qualidade e evolução contínua**.
+- Desenvolvimento com **Java, Python, TypeScript, JavaScript e C#**
+- Interesse em **arquitetura de software, código limpo e sistemas escaláveis**
+- Foco em transformar problemas reais em produtos funcionais e bem estruturados
 
 ## Stack principal
 
@@ -31,32 +31,55 @@ Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **no
     <td width="50%" valign="top">
       <h3 align="center">Back-End</h3>
       <p align="center">
-        <img src="https://skillicons.dev/icons?i=java,python&theme=dark" alt="Java e Python" />
+        <img
+          src="https://skillicons.dev/icons?i=java,python&theme=dark"
+          alt="Java e Python"
+        />
       </p>
-      <p align="center">APIs, regras de negócio, integrações e serviços.</p>
+      <p align="center">
+        APIs, regras de negócio, integrações e serviços.
+      </p>
     </td>
+
     <td width="50%" valign="top">
       <h3 align="center">Front-End</h3>
       <p align="center">
-        <img src="https://skillicons.dev/icons?i=ts,js,react,tailwind&theme=dark" alt="TypeScript, JavaScript, React e Tailwind CSS" />
+        <img
+          src="https://skillicons.dev/icons?i=ts,js,react,tailwind&theme=dark"
+          alt="TypeScript, JavaScript, React e Tailwind CSS"
+        />
       </p>
-      <p align="center">Interfaces responsivas, componentização e experiência do usuário.</p>
+      <p align="center">
+        Interfaces responsivas, componentização e experiência do usuário.
+      </p>
     </td>
   </tr>
+
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Dados & Serviços</h3>
       <p align="center">
-        <img src="https://skillicons.dev/icons?i=mysql,firebase&theme=dark" alt="MySQL e Firebase" />
+        <img
+          src="https://skillicons.dev/icons?i=mysql,firebase&theme=dark"
+          alt="MySQL e Firebase"
+        />
       </p>
-      <p align="center">Modelagem, persistência e serviços em nuvem.</p>
+      <p align="center">
+        Modelagem, persistência e serviços em nuvem.
+      </p>
     </td>
+
     <td width="50%" valign="top">
       <h3 align="center">DevOps & Workflow</h3>
       <p align="center">
-        <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,githubactions&theme=dark" alt="Docker, Git, GitHub, GitLab e GitHub Actions" />
+        <img
+          src="https://skillicons.dev/icons?i=docker,git,github,gitlab,githubactions&theme=dark"
+          alt="Docker, Git, GitHub, GitLab e GitHub Actions"
+        />
       </p>
-      <p align="center">Ambientes reproduzíveis, versionamento e automação.</p>
+      <p align="center">
+        Ambientes reproduzíveis, versionamento e automação.
+      </p>
     </td>
   </tr>
 </table>
@@ -72,8 +95,26 @@ Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **no
 ## GitHub em números
 
 <div align="center">
-  <img height="180" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas do GitHub de João Matheus" />
-  <img height="180" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg?v=2" alt="Linguagens mais utilizadas nos commits de João Matheus" />
+  <img
+    height="180"
+    src="./profile-summary-card-output/github_dark/3-stats.svg"
+    alt="Estatísticas do GitHub de João Matheus"
+  />
+  <img
+    height="180"
+    src="./profile-summary-card-output/github_dark/2-most-commit-language.svg?v=2"
+    alt="Linguagens mais utilizadas nos commits de João Matheus"
+  />
+</div>
+
+## Atividade de contribuições
+
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/JoaoMatheusVerissimo/JoaoMatheusVerissimo/output/github-contribution-grid-snake.svg"
+    width="100%"
+    alt="Animação do histórico de contribuições de João Matheus"
+  />
 </div>
 
 ## Vamos conversar
@@ -81,12 +122,24 @@ Busco constantemente aprimorar minhas **habilidades técnicas**, explorando **no
 Estou aberto a conexões, colaboração em projetos e oportunidades de desenvolvimento Full-Stack.
 
 <div align="center">
-  <a href="https://github.com/JoaoMatheusVerissimo"><img src="https://img.shields.io/badge/GitHub-Perfil-181717?style=for-the-badge&logo=github&logoColor=white" alt="Perfil no GitHub" /></a>
-  <a href="https://www.linkedin.com/in/joao-m-verissimo-francisco/"><img src="https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Perfil no LinkedIn" /></a>
+  <a href="https://github.com/JoaoMatheusVerissimo">
+    <img
+      src="https://img.shields.io/badge/GitHub-Perfil-181717?style=for-the-badge&logo=github&logoColor=white"
+      alt="Perfil no GitHub"
+    />
+  </a>
+  <a href="https://www.linkedin.com/in/joao-m-verissimo-francisco/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="Perfil no LinkedIn"
+    />
+  </a>
 </div>
 
 <br />
 
 <div align="center">
-  <sub>Projetando interfaces claras, construindo serviços sólidos e conectando as duas pontas.</sub>
+  <sub>
+    Projetando interfaces claras, construindo serviços sólidos e conectando as duas pontas.
+  </sub>
 </div>
