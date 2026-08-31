@@ -9,6 +9,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ".github/scripts/generate-contribution-animation.mjs"
+      - ".github/workflows/generate-contribution-animation.yml"
 
 permissions:
   contents: write
@@ -20,12 +23,19 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Gerar animação de contribuições
-        uses: Platane/snk/svg-only@v3
+      - name: Baixar repositório
+        uses: actions/checkout@v6
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: JoaoMatheusVerissimo
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#ff3333&color_dots=#161b22,#3b0a0a,#6e1010,#b91c1c,#ff3333
+          node-version: "22"
+
+      - name: Gerar animação
+        run: node .github/scripts/generate-contribution-animation.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: JoaoMatheusVerissimo
 
       - name: Publicar animação na branch output
         uses: peaceiris/actions-gh-pages@v4
